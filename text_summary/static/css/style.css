@@ -1,0 +1,131 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(168, 124, 124, 0.9); /* Use rgba() to specify opacity */
+    background-image: url('/static/images/text.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.container {
+  
+    text-align: center; /* Center-align text inside container */
+    background-color: #3E3232; /* Example background color */
+    padding: 20px; /* Example padding for spacing */
+    border-radius: 10px; /* Example border radius for rounded corners */
+    box-shadow: 10px 0 10px rgba(193, 114, 114, 0.1); /* Example box shadow for depth */
+    font-size: 65px; /* Increase font size */
+    font-family: Monospace, sans-serif; /* Example font family */
+    color: #333; /* Example text color */
+    margin-top: 10px;
+}
+
+
+
+
+.text {
+    font-size: 40px; /* Example font size for the heading */
+    font-weight: bold;
+    color: #ccc;
+}
+
+.para {
+    font-size: 18px; /* Example font size for the paragraph */
+    color: #ccc;
+}
+
+.form-container {
+    text-align: center; /* Center-align content inside form-container */
+    margin-top: 20px; /* Example margin-top for spacing between text and form */
+}
+
+.form-container form {
+    display: inline-block; /* Make the form display inline-block */
+}
+
+.form-container textarea {
+    width: 1000px; /* Example width for the textarea */
+    height: 100px; /* Example height for the textarea */
+    margin-bottom: 10px; /* Example margin-bottom for spacing between textarea and button */
+}
+
+.form-container button {
+    margin-top: 10px; /* Example margin-top for spacing between textarea and button */
+}
+
+.contain {
+    display: flex;
+    justify-content: space-around; /* Evenly space elements */
+    margin-top: 20px; /* Example margin-top for spacing between container and .contain */
+}
+
+.original_title {
+    width: 48%; /* Adjust width as needed */
+    text-align: center; /* Center-align text */
+    border: 1px solid #917777; /* Example border for styling */
+    padding: 10px; /* Example padding for spacing within elements */
+    background-color: #12372A;
+    color: #fff;
+}
+
+.summary_title {
+    width: 48%; /* Adjust width as needed */
+    text-align: center; /* Center-align text */
+    border: 1px solid #212421; /* Example border for styling */
+    padding: 10px; /* Example padding for spacing within elements */
+    background-color: #561C24;;
+    color:aliceblue
+}
+
+.contains {
+    display: flex;
+    flex-direction: row;
+    height: fit-content; /* Adjust height as needed */
+    width: fit-content; /* Adjust width as needed */
+}
+
+.originalTxt {
+    background-color: #FFE7E7;
+    padding: 20px;
+    margin-left: 10px;
+    width: 48%; /* Adjust width */
+}
+
+.summaryTxt {
+    background-color: #FFE7E7;
+    padding: 20px;
+    margin-left: 33px;
+    height: fit-content; /* Adjust height */
+    width:auto; /* Adjust width */
+}
+
+
+.scontainer button {
+    border: 2px solid #76453B; /* Button border style */
+    background-color: #561C24; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 5px 20px; /* Padding for button */
+    font-size: 16px; /* Button text size */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    margin-left: 330px;
+}
+.container1 button{
+        border: 2px solid #033e1d; /* Button border style */
+        background-color: #12372A; /* Button background color */
+        color: #fff; /* Button text color */
+        padding: 5px 20px; /* Padding for button */
+        font-size: 16px; /* Button text size */
+        justify-content: center; /* Center horizontally */
+        align-items: center;
+        margin-left: 330px;
+    
+}
+
